@@ -79,3 +79,21 @@
 #     # print(f"You have got a 10% Discount !! Price is :{price-(price*10/100)}")
 # else :
 #     print(f"Price is : {price}")
+
+
+# Grading System
+
+score = int(input("Enter you score :"))
+
+if score >= 90 and score <=100: 
+    print("Grade O !!")
+elif score >= 80 and score < 90:
+    print("Grade A !!")
+elif score >= 65 and score < 80:
+    print("Grade B !!")
+elif score >= 35 and score < 65:
+    print("Grade C !!")
+elif score < 35:
+    print("You have failed the exam !!")
+else :
+    print("Wrong input !!")
