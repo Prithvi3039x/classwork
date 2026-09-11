@@ -131,9 +131,35 @@
 
 # checking leap year
 
-year = int(input("Enter year : "))
+# year = int(input("Enter year : "))
 
-if(year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
-    print(f"{year} is a leap year!")
-else:
-    print(f"{year} is not a leap year!")
+# if(year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+#     print(f"{year} is a leap year!")
+# else:
+#     print(f"{year} is not a leap year!")
+
+
+#Simple calculator
+
+num1 = int(input("Enter first number :"))
+num2 = int(input("Enter second number :"))
+
+print("\n Enter 1 for addition\n Enter 2 for subtraction\n Enter 3 for multipliaction\n Enter 4 for division")
+
+ch = int(input("Enter your choice :"))
+
+match ch:
+    case 1:
+        print("The answer is",num1+num2)
+    case 2:
+        print("The answer is",num1-num2)
+    case 3:
+        print("The answer is",num1*num2)
+    case 4:
+        if num2 == 0:
+            print("Cannot divide by Zero !!")
+        else:
+            print("The answer is",num1/num2)
+    case _:
+        print("Please enter valid choice!!")
+
