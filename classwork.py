@@ -98,11 +98,32 @@
 # else :
 #     print("Wrong input !!")
 
-num = int(input("Enter a number : "))
+# num = int(input("Enter a number : "))
 
-if num > 0:
-    print(f"{num} is a Positive Number")
-elif num < 0:
-    print(f"{num} is a Negative Number")
+# if num > 0:
+#     print(f"{num} is a Positive Number")
+# elif num < 0:
+#     print(f"{num} is a Negative Number")
+# else:
+#     print("You have entered zero !!")
+
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+c = int(input("Enter third number:"))
+
+if a>=b and a>=c:
+    print(f"{a} is the greater number")
+elif b>=a and b>=c:
+    print(f"{b} is the greater number")
+elif a==b and b==c:
+    print("Numbers are equal")
 else:
-    print("You have entered zero !!")
+    print(f"{c} is the greater number")
+
+# if a> b:
+#     if a> c:
+#         print(f"{a} is greater")
+#     else:
+#         print(f"{b} is greater")
+# else:
+#     print(f"{c} is greater")
