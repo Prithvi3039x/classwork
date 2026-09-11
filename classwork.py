@@ -107,18 +107,18 @@
 # else:
 #     print("You have entered zero !!")
 
-a = int(input("Enter first number:"))
-b = int(input("Enter second number:"))
-c = int(input("Enter third number:"))
+# a = int(input("Enter first number:"))
+# b = int(input("Enter second number:"))
+# c = int(input("Enter third number:"))
 
-if a>=b and a>=c:
-    print(f"{a} is the greater number")
-elif b>=a and b>=c:
-    print(f"{b} is the greater number")
-elif a==b and b==c:
-    print("Numbers are equal")
-else:
-    print(f"{c} is the greater number")
+# if a>=b and a>=c:
+#     print(f"{a} is the greater number")
+# elif b>=a and b>=c:
+#     print(f"{b} is the greater number")
+# elif a==b and b==c:
+#     print("Numbers are equal")
+# else:
+#     print(f"{c} is the greater number")
 
 # if a> b:
 #     if a> c:
@@ -127,3 +127,13 @@ else:
 #         print(f"{b} is greater")
 # else:
 #     print(f"{c} is greater")
+
+
+# checking leap year
+
+year = int(input("Enter year : "))
+
+if(year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print(f"{year} is a leap year!")
+else:
+    print(f"{year} is not a leap year!")
