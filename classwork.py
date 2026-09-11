@@ -101,8 +101,8 @@
 num = int(input("Enter a number : "))
 
 if num > 0:
-    print("Number is Positive")
+    print(f"{num} is a Positive Number")
 elif num < 0:
-    print("Number is Negative")
+    print(f"{num} is a Negative Number")
 else:
-    print("Number is Zero")
+    print("You have entered zero !!")
