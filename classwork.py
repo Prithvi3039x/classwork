@@ -83,17 +83,26 @@
 
 # Grading System
 
-score = int(input("Enter you score :"))
+# score = int(input("Enter you score :"))
 
-if score >= 90 and score <=100: 
-    print("Grade O !!")
-elif score >= 80 and score < 90:
-    print("Grade A !!")
-elif score >= 65 and score < 80:
-    print("Grade B !!")
-elif score >= 35 and score < 65:
-    print("Grade C !!")
-elif score < 35:
-    print("You have failed the exam !!")
-else :
-    print("Wrong input !!")
+# if score >= 90 and score <=100: 
+#     print("Grade O !!")
+# elif score >= 80 and score < 90:
+#     print("Grade A !!")
+# elif score >= 65 and score < 80:
+#     print("Grade B !!")
+# elif score >= 35 and score < 65:
+#     print("Grade C !!")
+# elif score < 35:
+#     print("You have failed the exam !!")
+# else :
+#     print("Wrong input !!")
+
+num = int(input("Enter a number : "))
+
+if num > 0:
+    print("Number is Positive")
+elif num < 0:
+    print("Number is Negative")
+else:
+    print("Number is Zero")
