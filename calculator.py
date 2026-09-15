@@ -10,6 +10,9 @@ while is_true:
 
     if ch == "5":
         a = int(input("Enter number to calculate factroial :"))
+    elif ch == "exit":
+        print("Calculator closed")
+        break
     else:
         a = int(input("Enter first number :"))
         b = int(input("Enter second number :"))  
