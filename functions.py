@@ -5,8 +5,13 @@ def greet(name):
 greet("Patil")
 
 def add(a,b):
-    print(a+b)
+    return (a+b)
 
-add(10,20)
-add(12,14)
-add(50,60)
+print(add(10,20))
+print(add(12,202))
+print(add(50,22))
+
+def name(name="Prithviraj"):
+    print("hello",name)
+
+name()
